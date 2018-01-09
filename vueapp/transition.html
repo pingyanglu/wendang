@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*a由transition的name决定*/
+    .a-enter{
+        transform: translate(100%,0)
+    }
+    .a-enter-active{
+        transition: all .3s ease;
+    }
+    .a-enter-to{
+        transform: translate(0,0)
+    }
+    .a-leave{
+        transform: translate(0,100%)
+    }
+    .a-leave-active{
+        transition: all .3s ease;
+    }
+    .a-leave-to{
+        transform: translate(-100%,0)
+    }
+</style>
+<body>
+<!--mode控制进出模式out-in  先出后进     in-out 先进后出-->
+<transition name="a" mode="out-in">
+    <router-view></router-view>
+</transition>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {"id":"1","title":"Global Config","pid":0},
+  {"id":"7","title":"optionMergeStrategies","pid":1},
+  {"id":"2","title":"errorHandler","pid":1},
+  {"id":"3","title":"keyCodes","pid":1},
+
+  {"id":"4","title":"Global API","pid":0},
+  {"id":"5","title":"Vue.extend","pid":4},
+  {"id":"6","title":"Vue.nextTick","pid":4},
+
+  {"id":"8","title":"Options / DOM","pid":0},
+  {"id":"9","title":"el","pid":8},
+  {"id":"10","title":"template","pid":8}
+]
